@@ -1,0 +1,3 @@
+-- Reference only. The mysql client cannot SOURCE reliably from stdin on every setup,
+-- so build with:   npm run db:build
+-- (or run the four files in order: 01_schema, 02_views, 03_triggers, 04_data)
